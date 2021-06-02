@@ -464,6 +464,7 @@ ul li {
 
 .menu-banner {
     padding: 30px 0;
+    padding-bottom: 0px;
 }
 
 .side-menu .head {
@@ -618,12 +619,36 @@ ul li {
 
 /* banner */
 
-#banner-slider .banner {
+/*#banner-slider .banner {
     padding: 30px;
     background-size: cover !important;
     background-repeat: no-repeat;
     min-height: 490px;
+}*/
+/*#banner-slider .banner {
+    height: 525px;
+    background-color: #FFF;
+    background-position: center 55%;
+    background-size: cover;
+}*/
+
+
+#banner-slider .captions {
+    padding-right: 20%;
+    color: #636363;
+    letter-spacing: -3px;
+    padding-left: 3%;
+    padding-top: 7%;
 }
+
+#banner-slider .banner {
+    height: 525px;
+    background-color: #FFF!important;
+    background-position: center 55%!important;
+    background-size: cover!important;
+    position: relative;
+}
+/*
 
 
 #banner-slider .captions {
@@ -631,6 +656,7 @@ ul li {
     color: #636363;
     letter-spacing: -3px;
 }
+*/
 
 #banner-slider .text1 {
     font-size: 50px;
@@ -669,18 +695,18 @@ ul li {
     background: #f9f9f9 !important;
     line-height: inherit !important;
     position: absolute !important;
-    bottom: -30px !important;
-    padding: 10px;
+    bottom: -15px!important;
+    padding: 0px 5px 9px 5px;
     color: red !important;
     display: inline-block !important;
     color: red;
     border-radius: 3px !important;
     left: 50%;
-    margin-left: -35px;
     opacity: 0;
     -webkit-transition: .5s ease;
     transition: .5s ease;
-    margin-top: 10px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .owl-dots .owl-dot .active span,
@@ -702,12 +728,10 @@ ul li {
 
 }
 
-
 #banner-slider:hover .owl-dots {
     opacity: 1;
     bottom: 0;
 }
-
 
 #banner-slider button:focus {
     outline: none;
@@ -741,13 +765,14 @@ ul li {
     z-index: 200;
 }
 
-.banner-text  h1 {
+.banner-text h1 {
     color: #4F6276;
     font-weight: bold;
     font-size: 36px;
     line-height: 38px;
     margin: 0;
 }
+
 .banner-holder .banner .banner-text .tagline {
     font-weight: 100;
     color: #3d3d3d;
@@ -1214,9 +1239,6 @@ ul li {
 
 .recently-view {
     padding: 70px 0 100px 0;
-
-
-
 }
 
 .recently-view .wish-compare {
@@ -1288,7 +1310,6 @@ ul li {
     top: -45px;
 }
 
-
 .title-nav .nav-holder > span {
     color: #e0e0e0;
     font-size: 48px;
@@ -1298,17 +1319,13 @@ ul li {
     cursor: pointer;
 }
 
-
-
 .title-nav .nav-holder > span:hover {
     color: #59B210 !important;
 }
 
-
 .title-nav .nav-holderss > span:hover {
     color: #59B210 !important;
 }
-
 
 .title-nav .nav-holders > span:hover {
     color: #59B210 !important;
@@ -1324,11 +1341,7 @@ ul li {
     width: 95%;
     height: 1px;
     background: #e0e0e0;
-
-
 }
-
-
 
 .title-nav .nav-holderss::before {
     content: "";
@@ -1342,8 +1355,6 @@ ul li {
     background: #e0e0e0;
 }
 
-
-
 .title-nav .nav-holders::before {
     content: "";
     position: absolute;
@@ -1356,25 +1367,17 @@ ul li {
     background: #e0e0e0;
 }
 
-
-
 .recently-view .products-grid.smalls .product-item-holder .prices {
     margin: 0 10px;
-
 }
-
-.owl-stage-outer {
-
-    padding-bottom: 70px !important;
+.recently-view .owl-stage-outer{
+    padding-bottom: 70px;
 }
-
 .recently-view .wish-compare i {
     margin-right: 5px;
 }
 
-
 /* Top Brands */
-
 .top-brands {
     padding-bottom: 70px;
 }
@@ -1382,13 +1385,9 @@ ul li {
 .product-holder {
     margin-right: 40px;
     margin-top: 40px;
-
-
 }
 
-
 #top-brands-main .owl-dots {
-
     line-height: inherit !important;
     position: absolute !important;
     bottom: -30px !important;
@@ -1411,7 +1410,6 @@ ul li {
 }
 
 #top-brands-main.owl-carousel button.owl-dot {
-
     background: lightgray !important;
     color: inherit;
     border: none;
@@ -1427,8 +1425,6 @@ ul li {
 #top-brands-main button:focus {
     outline: none;
 }
-
-
 
 
 /* Footer */
@@ -1537,9 +1533,8 @@ ul li {
     padding: 18px;
     color: #3D3D3D;
     width: 82%;
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px!important;
     font-size: 16px;
-
 }
 
 .site-footer .newsletter button[type="submit"] {
@@ -1550,6 +1545,15 @@ ul li {
     font-weight: bold;
 }
 
+.no-margin{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.no-margin-left {
+    margin-left: 0!important;
+    padding-left: 0!important;
+}
 
 .site-footer .contact-info {
     text-transform: capitalize;
@@ -1594,6 +1598,7 @@ ul li {
     transition: .3s ease;
     line-height: 28px;
 }
+
 .regular-bold {
     font-weight: bold;
     color: #5d5d5d;
@@ -1816,6 +1821,7 @@ ul li {
     margin-top: 0px;
     font-size: 18px;
 }
+
 .widget2 {
     padding: 20px 40px;
     border: 1px solid #e0e0e0;
@@ -1827,17 +1833,21 @@ ul li {
     color: #686868;
     font-size: 13px;
 }
+
 .dropdown-menu {
-    position: absolute!important;
+    position: absolute !important;
 }
+
 .top-brands-img img {
-    width: auto!important;
-    display: inline-block!important;
+    width: auto !important;
+    display: inline-block !important;
 }
+
 .top-brands-img {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
     text-align: center;
 }
+
 /* ======== Special Offers ======== */
 
 .special-offers {
@@ -1917,7 +1927,6 @@ ul li {
 }
 
 .content-area .owl-stage-outer {
-
     padding-bottom: 80px !important;
 }
 
@@ -2511,6 +2520,7 @@ ul li {
     padding-bottom: 60px;
 
 }
+
 .partner-img {
     margin: auto;
     text-align: center;
@@ -2541,6 +2551,7 @@ div#slider-range {
     border: 0 none !important;
     border-radius: 0 !important;
 }
+
 .filter-shop p {
     font-weight: 400;
     font-size: 14px;
@@ -2548,12 +2559,14 @@ div#slider-range {
     color: #333;
     font-style: normal;
 }
+
 .filter-shop p input {
     outline: none;
     border: none;
     margin-top: 20px;
     color: #3d3d3d;
 }
+
 .filter-shop .ui-slider .ui-slider-handle:nth-of-type(2) {
     width: 15px !important;
     height: 15px;
@@ -2575,10 +2588,34 @@ div#slider-range {
 
 
 .product-item-holder.single-product-gallery > .product {
-	position: relative;
+    position: relative;
 }
 
 
 
+.navbar .navbar-expand-lg .navbar-collapse {
+    display: block !important;
+}
+
+
+@media (min-width: 768px) {
+
+    .f-right {
+        float: right !important;
+    }
+
+}
+
+
+.f-right {
+    float: none;
+}
+
+
+@media (min-width: 992px) {
+    .navbar.navbar-expand-lg .navbar-collapse {
+        display: block !important;
+    }
+}
 
 

@@ -43,11 +43,12 @@
         left: 15px;
         top: 47px;
     }
-
 }
 
 
 @media (min-width:768px) and (max-width: 991px) {
+
+
     .logo {
         margin-bottom: 15px;
     }
@@ -56,8 +57,34 @@
         margin-bottom: 15px;
     }
 
+    .site-header {
+        text-align: center;
+    }
+
+    .side-menu-holder {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .side-menu .dropdown-menu {
+        min-width: 0%;
+        left: 0% !important;
+        top: 100% !important;
+        max-width: 100%;
+    }
+
+    .site-footer .social-icons li a {
+        margin-right: 4px;
+        margin-bottom: 5px;
+    }
+
     .banner-holder .banner {
         margin-bottom: 20px;
+    }
+
+    .side-menu .menu > li > a {
+        font-weight: 500;
+        font-size: 14px;
     }
 
     .products-grid.smalls .product .hover-area .add-cart-button a {
@@ -79,7 +106,6 @@
         margin: 0 -1px 0 15px;
     }
 
-
     .product-item-holder .body .title a {
         font-size: 14px;
     }
@@ -87,7 +113,6 @@
     .product-item-holder .body .title a {
         font-size: 14px;
     }
-
 
     .prices .price-prev {
         display: none;
@@ -97,20 +122,34 @@
         padding: 5px 11px !important;
     }
 
-    .newsletter form .input-group-append {
-        width: 20px;
+
+
+    .regular-bold {
+        margin-bottom: 10px;
     }
 
-    .newsletter form {
-        width: 400px;
+    .contact-address {
+        margin-bottom: 30px;
+    }
+
+    .site-footer .link-widget h3 {
+        padding-bottom: 17px;
+    }
+
+    .site-footer .social-icons {
+        margin: 30px 0 0 0;
+    }
+
+    .newsletter {
+        margin: 30px 0;
     }
 
     .site-footer .widget .widget-content li a {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .site-footer .link-widget li a {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .site-footer .social-icons li {
@@ -141,7 +180,6 @@
         color: #434343;
     }
 
-
     .contact-info h3::after {
         content: "";
         background: #ececec;
@@ -160,13 +198,7 @@
         margin-bottom: 30px;
     }
 
-
-
-
-
     .contact-point.input-group-lg .form-control {
-
-
         height: calc(2.875rem + 2px);
         padding: .5rem 1rem;
         font-size: 1.25rem;
@@ -177,15 +209,29 @@
 
     }
 
+    .recently-view {
+        padding: 70px 0 26px 0;
+    }
 
+    .title-nav .nav-holders::before {
+        width: 92%;
+    }
 
+    .title-nav .nav-holder::before {
+        width: 92%;
+    }
 
+    #best-sellers .col-xs-12.col-sm-12.col-md-12.col-lg-5 {
+        padding: 0 !important;
+    }
+
+    .product-item-holder {
+        border: 1px solid #ececec !important;
+    }
 }
 
 
 @media (min-width:480px) and (max-width: 767px) {
-
-
     .logo {
         text-align: center;
     }
@@ -194,10 +240,6 @@
         font-size: 16px;
         text-align: center;
         margin-top: 20px;
-    }
-
-    .banner-holder {
-        margin: 0;
     }
 
     #products-tab .nav-pills li a {
@@ -211,21 +253,17 @@
 
     .categories-filter {
         border-top: 1px solid #e0e0e0;
-        width: calc(100% - 43px);
+        width: calc(100% - 39px);
     }
-
 
     .header-search button[type="submit"] {
         margin-top: 0px;
     }
 
-
     .banner-holder .banner {
         position: relative;
         overflow: hidden;
-        margin-bottom: 20px;
     }
-
 
     .nav-pills li a.active {
         padding: 10px 30px;
@@ -239,7 +277,6 @@
     .title-nav .nav-holder::before {
         display: none;
     }
-
 
     .site-footer .link-widget h3 {
         margin-top: 30px;
@@ -262,7 +299,6 @@
         float: none !important;
     }
 
-
     .contact-info h3::after {
         content: "";
         background: #ececec;
@@ -278,12 +314,77 @@
         visibility: hidden;
     }
 
+
 }
 
 
 
 @media (max-width: 767px) {
+    #best-sellers .col-xs-12.col-sm-12.col-md-12.col-lg-5 {
+        padding: 0 !important;
+    }
 
+    .recently-view {
+        padding: 70px 0 26px 0;
+    }
+
+    .recently-view .owl-stage-outer {
+        padding-bottom: 30px !important;
+    }
+
+    .top-brands .title-nav {
+        margin-bottom: 0px;
+    }
+
+    .regular-bold {
+        margin-bottom: 10px;
+    }
+
+    .product-item-holder {
+        border: 1px solid #ececec !important;
+    }
+
+    .banner-holder {
+        margin: 23px 0 0 0;
+    }
+
+    #products-tab {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #banner-slider .captions {
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .contact-address {
+        margin-bottom: 20px;
+    }
+
+    .site-footer .link-widget h3 {
+        padding-bottom: 17px;
+    }
+
+    .site-footer .social-icons {
+        margin: 30px 0 0 0;
+    }
+
+    .newsletter {
+        margin: 30px 0;
+    }
+
+    .site-footer .newsletter button[type="submit"] {
+        font-size: 16px;
+        height: auto;
+        border-radius: 5px;
+        font-weight: bold;
+        width: 100%;
+        margin: 0;
+    }
+
+    .site-footer .newsletter:before {
+        display: none;
+    }
 
     #banner-slider {
         padding-top: 30px;
@@ -298,12 +399,8 @@
     }
 
     .product-item-holder {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
-
-    /*  #banner-slider .owl-dots {
-        bottom: 40px !important;
-    }*/
 
     ul.dropdown-menu.show {
         position: absolute !important;
@@ -322,19 +419,15 @@
     }
 
     .topbar .navbar-nav .nav-link {
-        padding: 0 3px;
+        padding: 0 16px !important;
+        font-size: 12px !important;
     }
 
-    /*
-    .input-group-append {
-        margin-left: 7px;
-    }
-*/
+
 
     .title-nav .nav-holderss::before {
         display: none;
     }
-
 
     .heads {
 
@@ -345,8 +438,6 @@
         width: 100%;
         margin-top: 10px;
     }
-
-
 
     .heads3 {
         width: 100%;
@@ -488,6 +579,7 @@
         border-radius: 3px !important;
         padding-top: 7px;
         height: 100%;
+        margin: 0;
     }
 
     .site-footer .newsletter button[type="submit"] {
@@ -512,9 +604,17 @@
         padding: 70px 0 0px 0;
     }
 
- .top-brands {
-	padding-bottom: 30px;
+    #banner-slider .text1 {
+        font-size: 30px;
+    }
+
+ .captions {
+    position: absolute;
+    top: 11%;
+    left: 10%;
+    z-index: 100;
 }
+
 }
 
 
