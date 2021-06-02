@@ -1238,7 +1238,7 @@ ul li {
 /* Recently View */
 
 .recently-view {
-    padding: 70px 0 100px 0;
+    padding: 70px 0 30px 0;
 }
 
 .recently-view .wish-compare {
@@ -1383,8 +1383,20 @@ ul li {
 }
 
 .product-holder {
-    margin-right: 40px;
-    margin-top: 40px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    max-width: 100%;
+}
+
+.product-holder  a {
+    padding: 30px 11px;
+    margin: 2px 0 0 0;
+    display: block;
+    border: 1px solid #e0e0e0;
+}
+ .product-holder  a img {
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #top-brands-main .owl-dots {

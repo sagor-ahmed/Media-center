@@ -332,10 +332,6 @@
         padding-bottom: 30px !important;
     }
 
-    .top-brands .title-nav {
-        margin-bottom: 0px;
-    }
-
     .regular-bold {
         margin-bottom: 10px;
     }
@@ -345,7 +341,7 @@
     }
 
     .banner-holder {
-        margin: 23px 0 0 0;
+        margin: 40px 0 0 0;
     }
 
     #products-tab {
@@ -423,8 +419,6 @@
         font-size: 12px !important;
     }
 
-
-
     .title-nav .nav-holderss::before {
         display: none;
     }
@@ -468,20 +462,15 @@
         font-size: 18px;
     }
 
-
-
     .sidebar {
         width: 100%;
         display: block;
     }
 
-
     .recomended-products {
         width: 100%;
         display: block;
     }
-
-
 
     .gaming-text .gaming-style-2 {
         margin-left: 1px;
@@ -489,12 +478,9 @@
         text-align: center;
     }
 
-
     .gaming-text {
-
         padding: 0;
         background: transparent;
-
     }
 
     .gaming {
@@ -548,7 +534,6 @@
         font-size: 15px;
         font-weight: 500;
     }
-
 
     .title-nav .nav-holders::before {
         content: "";
@@ -608,12 +593,17 @@
         font-size: 30px;
     }
 
- .captions {
-    position: absolute;
-    top: 11%;
-    left: 10%;
-    z-index: 100;
-}
+    .captions {
+        position: absolute;
+        top: 11%;
+        left: 10%;
+        z-index: 100;
+    }
+
+    .recently-view .owl-stage-outer {
+        padding-bottom: 60px !important;
+    }
+
 
 }
 

@@ -91,13 +91,13 @@ $(document).ready(function () {
         responsive: {
 
             0: {
-                items: 1
+                items: 2
             },
             480: {
-                items: 1
+                items: 2
             },
             768: {
-                items: 3
+                items: 4
             },
             992: {
                 items: 4
